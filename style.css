@@ -1,0 +1,90 @@
+body {
+  background-color: #ff8d00;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+}
+
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #FFF;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+  border-radius:5%;
+}
+a {
+  text-decoration: none;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#artigo-admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#artigo-admin:hover {
+  background-color: #cccccc;
+}
+
+.botao {
+  padding: 5px;
+  background-color: rgb(210, 129, 5);
+  color: #ffffff;
+  font-weight: bold;
+  border: solid 1px rgb(222, 177, 105);
+  border-radius: 5px;
+}
+
+.campo-form {
+  margin: 10px 0;
+  display: block;
+}
+
+.botao-block {
+  display: block;
+  width: max-content;
+}
+img{
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: center;
+  margin: 0 auto;
+}
+ul >h2{
+  margin-bottom: 0.7px;
+}
+ul > li > span {
+  border-radius: 85%;
+  background: rgb(210, 129, 5);
+  color: #ffffff;
+  width: 45px;
+  height: 45px;
+  font-size: 24px;
+  /* padding: 7px; */
+  /* margin: 4px; */
+  display: flex;
+  align-content: stretch;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul > li{
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 5px;
+}
